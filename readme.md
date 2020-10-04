@@ -4,3 +4,9 @@
 
 > The MSFT stock (Microssoft) was used for fit and evaluated the movements.
 
+
+#
+
+<p align="center"><b>Sincerely:</b> <a href="https://github.com/neemiasbsilva">Neemias B. da Silva</a></p>
+
+#

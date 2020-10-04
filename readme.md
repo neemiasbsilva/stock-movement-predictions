@@ -56,7 +56,7 @@ Bellow, follow some of packages you have to be install for run this experiment:
 
 ## Result 
 
-<p align="center"><img src="plot.png" width="65%" height="65%"></p> 
+<p align="center"><img src="result.png" width="65%" height="65%"></p> 
 <h6 align="center">Stock price movement for 30 days future.</h6>
 
 

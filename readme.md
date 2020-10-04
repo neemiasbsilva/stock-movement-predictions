@@ -4,8 +4,6 @@
 
 > The MSFT stock (Microssoft) was used for fit and evaluated the movements.
 
-# Description
-
 ## About LSTM
 
 LSTM are a special kind of Recurrent Neural Network, capable of learning long-term dependencies. They were introduced by [Hochreiter & Schmidhuber (1997)](http://www.bioinf.jku.at/publications/older/2604.pdf), and were refined and popularized by many people in following works [[Sundermeyer et al. (2012)](https://www.isca-speech.org/archive/interspeech_2012/i12_0194.html), [Zhou, Chunting, et al. (2015)](https://arxiv.org/abs/1511.08630), [Gensler, André, et al. (2016)](https://ieeexplore.ieee.org/abstract/document/7844673)].
@@ -15,6 +13,44 @@ All recurrent neural networks have the form of a chain of repeating modules of n
 <p aling="center"><img src="lstm_cell.png" width="85%" height="85%"></p> 
 <h6 align="center">The repeating module in an LSTM containg four interacting layers. To know more about lstm neural networks, please <a href="http://elgibborsms.com/blog/introduction-to-long-short-term-memory/">click here</a>.</h6>
 
+### Install
+
+Bellow, follow some of packages you have to be install for run this experiment:
+
+- The first step is create run virtual environment (this step is optional, but I recommend):
+```
+  python3 -m pip install --user virtualenv
+  source .virtualenv/bin/activate
+```
+
+- The second step is install Sklearn 
+```
+  pip install -U scikit-learn
+```
+
+- The third step is install Pandas
+
+```
+  pip install pandas
+```
+
+- After install Sklearn, you need to install TensorFlow:
+
+```
+  pip install tensorflow
+```
+
+- When TensorFlow installation has finished, please install the Keras library:
+
+```
+  pip install keras
+```
+
+- And the last library was MatPlotLib for you plot some graphics to analisy the results:
+
+```
+  python -m pip install -U matplotlib
+```
 
 
 #

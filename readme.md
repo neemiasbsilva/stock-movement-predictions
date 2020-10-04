@@ -13,6 +13,8 @@ All recurrent neural networks have the form of a chain of repeating modules of n
 <p aling="center"><img src="lstm_cell.png" width="85%" height="85%"></p> 
 <h6 align="center">The repeating module in an LSTM containg four interacting layers. To know more about lstm neural networks, please <a href="http://elgibborsms.com/blog/introduction-to-long-short-term-memory/">click here</a>.</h6>
 
+## Getting Started
+
 ### Install
 
 Bellow, follow some of packages you have to be install for run this experiment:
@@ -51,6 +53,11 @@ Bellow, follow some of packages you have to be install for run this experiment:
 ```
   python -m pip install -U matplotlib
 ```
+
+## Result 
+
+<p align="center"><img src="plot.png" width="65%" height="65%"></p> 
+<h6 align="center">Stock price movement for 30 days future.</h6>
 
 
 #

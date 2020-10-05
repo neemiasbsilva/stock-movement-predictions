@@ -37,7 +37,7 @@ Bellow, follow some of packages you have to be install for run this experiment:
   pip install pandas
 ```
 
-- After install Sklearn, you need to install TensorFlow:
+- After install Pandas, you need to install TensorFlow:
 
 ```
   pip install tensorflow
@@ -55,10 +55,26 @@ Bellow, follow some of packages you have to be install for run this experiment:
   python -m pip install -U matplotlib
 ```
 
+### Run the Experiment
+
+After the instalations, you can run now the experiment type the following command in your terminal:
+
+```
+  sh run.sh
+```
+
+For evaluat your model, open "evaluating_experiment.ipynb" (Jupyter Notebook File) and run all the cells:
+```
+  jupyter-notebook evaluating_experiment.ipynb
+```
+
+__Note__: you have to specify the correct path for your load_model cell in _Jupyter Notebook_.
+
+
 ## Result 
 
 <p align="center"><img src="result.png" width="85%" height="65%"></p> 
-<h6 align="center">Stock price movement for 30 days future.</h6>
+<h6 align="center">Stock price movement for 30 days prediction.</h6>
 
 
 #

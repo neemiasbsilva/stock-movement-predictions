@@ -10,7 +10,7 @@ LSTM are a special kind of Recurrent Neural Network, capable of learning long-te
 
 All recurrent neural networks have the form of a chain of repeating modules of neural network. LSTM also have this chain like structure, bellow follow the module in an LSTM.
 
-<p align="center"><img src="lstm_cell.png" width="65%" height="85%"></p> 
+<p align="center"><img src="lstm_cell.png" width="55%" height="85%"></p> 
 <h6 align="center">The repeating module in an LSTM containg four interacting layers. To know more about lstm neural networks, please <a href="http://elgibborsms.com/blog/introduction-to-long-short-term-memory/">click here</a>.</h6>
 
 
@@ -73,7 +73,7 @@ __Note__: you have to specify the correct path for your load_model cell in _Jupy
 
 ## Result 
 
-<p align="center"><img src="result.png" width="85%" height="65%"></p> 
+<p align="center"><img src="result.png" width="100%" height="65%"></p> 
 <h6 align="center">Stock price movement for 30 days prediction.</h6>
 
 

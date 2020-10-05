@@ -73,7 +73,7 @@ __Note__: you have to specify the correct path for your load_model cell in _Jupy
 
 ## Result 
 
-<p align="center"><img src="result.png" width="100%" height="65%"></p> 
+<p align="center"><img src="result.png" width="100%"></p> 
 <h6 align="center">Stock price movement for 30 days prediction.</h6>
 
 
